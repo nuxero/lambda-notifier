@@ -1,6 +1,6 @@
 var AWS = require("aws-sdk");
 
-var topic = 'arn:aws:sns:region:accountID:sns-name';
+var topic = 'arn:aws:sns:region:accountID:sns-topic-lambda-notifier';
 const codepipeline = new AWS.CodePipeline();
 const sns = new AWS.SNS();
 
